@@ -1,0 +1,12 @@
+@import "./partials/variables"; // Siempre arriba de todo
+
+@import "./partials/reset"; // Siempre debajo de variables y arriba del resto
+
+@import "./partials/header";
+@import "./partials/imghome";
+@import "./partials/gridimg";
+@import "./partials/logoslideshow";
+@import "./partials/correomas";
+@import "./partials/footer";
+
+// Media queries irian aqui abajo

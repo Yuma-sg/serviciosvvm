@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="shortcut icon" href="./img/favicon-vv.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultoría Gastronómica - Inicio</title>
+    <meta name="description" content="La mejor consultoría gastronómica de México.">
+    <meta name="keywords" content="consultoria, mexico, gastronomia, comida, restaurantes">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+
+    <!--Barra de navegacion-->
+
+    <header>
+        <nav class="navbar navbar-expand-lg  navbar-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="./index.html"><img class="logo-nav" src="../img/logo-vilches.png" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/servicios.html">Servicios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/quienessomos.html">Quienes somos</a>
+                  </li>
+                    <a class="nav-link" href="./pages/galeria.html">Galería</a>
+                  </li>
+                    <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                  </li>
+                  </li>
+                  <a href="../pages/reserva.html">
+                    <button type="button" class="btn cta" href="../pages/reserva.html">Reserva</button>
+                  </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav> 
+    </header>
+
+    <!--Banner principal con texto centrado y botones-->
+
+    <main>
+        <section class="hero justify-content-center align-items-center">
+            <div class="text-container">
+                <h1 class="text-bienvenidos">Bienvenidos</h1>
+                <p class="text-">Te damos capacitaciones personalizadas<br>para mejorar la gestión de tu negocio y/o equipo.</p>
+                <div class="buttons-banner-home">
+                    <a class="button-serv button-full" href="./pages/servicios.html">Ver servicios</a>
+                    <a class="button-reserv button-full md" href="./pages/reserva.html">Reserva</a>
+                </div>
+          </section>
+
+          <!--Grid de imagenes con nuestros servicios-->
+    
+          <section class="container">
+<!--Puse el color de los botones aqui porque al pasar a sass no me deja hacer cambios y no entiendo por que, espero feedback y/o ayuda-->
+            <style>.btn-success {
+              background-color: #00A827;
+          }</style>
+
+            <h2 class="row mt-5 d-flex justify-content-center align-items-center">Servicios destacados</h2>
+            <div class="row mt-5">
+                <div class="col-md-3 col-sm-6"><div class="card h-100">
+                    <img src="./img/asesoria-gestion-marketing.jpg" class="card-img-top" alt="img 1">
+                    <div class="card-body">
+                      <h5 class="card-title">Asesoría en Gestión y Marketing</h5>
+                      <p class="card-text"></p>
+                      <a class="btn btn-success" href="./pages/servicios.html">Ver más</a>
+                    </div>
+                  </div></div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="card h-100">
+                        <img src="./img/optimizacion-menus-costos.jpg" class="card-img-top" alt="img 2">
+                        <div class="card-body">
+                          <h5 class="card-title">Optimización de Menús y Costos</h5>
+                          <p class="card-text"></p>
+                          <a href="./pages/servicios.html" class="btn btn-success">Ver más</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="card h-100">
+                        <img src="./img/capacitacion-personal.jpg" class="card-img-top" alt="img 3">
+                        <div class="card-body">
+                          <h5 class="card-title">Capacitación del Personal</h5>
+                          <p class="card-text"></p>
+                          <a href="./pages/servicios.html" class="btn btn-success mt-4">Ver más</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="card h-100">
+                        <img src="./img/diseno-remodelacion-espacio.jpg" class="card-img-top" alt="img 4">
+                        <div class="card-body">
+                          <h5 class="card-title">Diseño y Remodelación del Espacio</h5>
+                          <p class="card-text"></p>
+                          <a href="./pages/servicios.html" class="btn btn-success">Ver más</a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+          </section>
+
+          <!--Slideshow infinito-->
+
+          <section class="container mt-5">
+            <h2 class="clientes-txt">Nuestros clientes</h2>
+            <div class="slider">
+                <div class="slide-track">
+                    <div class="slide"><img src="./img/logo-almacen.jpg" alt=""></div>
+                    <div class="slide"><img src="./img/logo-arroyo.jpg" alt=""></div>
+                    <div class="slide"><img src="./img/logo-capograssi.jpg" alt=""></div>
+                    <div class="slide"><img src="./img/logo-casa-mane.jpg" alt=""></div>
+                    <div class="slide"><img src="./img/logo-coconuts.jpg" alt=""></div>
+                    <div class="slide"><img src="./img/logo-koli.jpg" alt=""></div>
+                    <div class="slide"><img src="./img/logo-sato.jpg" alt=""></div>
+                    <div class="slide"><img src="./img/logo-laescuela.jpg" alt=""></div>
+                    <div class="slide"><img src="./img/logo-treintaitres.jpg" alt=""></div>
+                </div>
+            </div>
+        </section>
+
+        <!--Espacio para registrar y contactar a usuarios-->
+        
+        <div class="mb-3">
+            <form>
+               <div class="register-mail">
+                    <h2 class="mas-pregunta">¿Quieres saber mas?</h2>
+                    <p class="dejatumail-txt">Deja tu correo aqui abajo</p>
+                    <div class="mail-short">
+                        <input type="email" id="email" placeholder="ejemplo@tumail.com" required>
+                        <button type="submit" class="btn btn-success">Enviar</button>
+                    </div>
+               </div>
+            </form>
+        </div>
+    </main>
+
+    <!--Empieza el footer-->
+
+    <footer class="mt-5">
+      <img class="logo-footer mt-5" src="../img/logo-vilches.png" alt="">
+      <p> &copy; 2024 Consultoría Gastronómica</p>
+  </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+</body>
+</html>

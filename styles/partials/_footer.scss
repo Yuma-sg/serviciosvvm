@@ -1,0 +1,16 @@
+footer {
+    background: black;
+    color: #fff;
+    text-align: right;
+    padding: 2% 8%;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+
+    .logo-footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}

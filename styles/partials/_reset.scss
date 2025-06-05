@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: $mainfont;
+
+    &::selection {
+        background-color: black;
+        color: $maincolor;
+    }
+  }
+
+body {
+    line-height: 1.6;
+    background-color: white;
+}

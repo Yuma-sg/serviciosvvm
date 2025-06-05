@@ -1,0 +1,263 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montseerrat", sans-serif;
+}
+*::-moz-selection {
+  background-color: black;
+  color: #00A827;
+}
+*::selection {
+  background-color: black;
+  color: #00A827;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px 10%;
+  background-color: black;
+}
+header .logo {
+  margin-right: auto;
+}
+header .nav__links {
+  list-style: none;
+  display: flex;
+}
+header .nav__links .nav__links, header .nav__links .cta, header .nav__links a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+}
+header .nav__links .nav__links .nav__links li, header .nav__links .cta .nav__links li, header .nav__links a .nav__links li {
+  padding: 0px 20px;
+}
+header .nav__links .nav__links .nav__links li a, header .nav__links .cta .nav__links li a, header .nav__links a .nav__links li a {
+  transition: all 0.3s ease 0s;
+}
+header .nav__links .nav__links:hover, header .nav__links .cta:hover, header .nav__links a:hover {
+  color: #00A827;
+}
+header .cta {
+  margin-left: 20px;
+  padding: 9px 25px;
+  background-color: #00A827;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+header .cta:hover {
+  background-color: #003f0f;
+}
+
+.text-container {
+  font-family: "Montserrat", sans-serif;
+  background-image: url(/img/banner-home.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  padding: 8%;
+}
+.text-container .text-bienvenidos {
+  display: flex;
+  justify-content: center;
+  color: #00A827;
+  font-size: 60px;
+}
+.text-container .text- {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  margin: 5px;
+}
+
+.buttons-banner-home {
+  display: flex;
+  justify-content: center;
+  margin: 40px;
+}
+.buttons-banner-home .button-serv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px;
+  padding: 10px 20px;
+  background-color: black;
+  border: 5px solid green;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+.buttons-banner-home .button-serv:hover {
+  background-color: #003f0f;
+}
+.buttons-banner-home .button-reserv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px;
+  padding: 9px 25px;
+  background-color: #00A827;
+  border: none;
+  border-radius: 5%;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+.buttons-banner-home .button-reserv:hover {
+  background-color: #003f0f;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px;
+}
+.container .card {
+  background-color: #00A827;
+  border-radius: 30px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1;
+}
+.container .card .card-body {
+  background-color: white;
+  width: 150px;
+}
+.container .card .servi-txt {
+  padding: 50px 30px;
+}
+.container .card h3 {
+  font-size: 20px;
+  color: grey;
+  margin-bottom: 20px;
+}
+.container .card .text-asesor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+}
+.container .button-vmas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px;
+  padding: 9px 25px;
+  background-color: #00A827;
+  border: none;
+  border-radius: 5%;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+.container .button-vmas:hover {
+  background-color: #003f0f;
+}
+
+.clientes-txt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.clientes-txt .nuestros-cl {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider {
+  display: flex;
+  height: auto;
+  margin: auto;
+  overflow: hidden;
+  align-items: center;
+}
+.slider .slider::before {
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  content: "";
+  width: 23.958%;
+  height: 110px;
+}
+.slider .slider::after {
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  content: "";
+  width: 23.958%;
+  height: 110px;
+}
+.slider .slider .slide-track {
+  display: flex;
+  animation: scroll 80s linear infinite;
+  -webkit-animation: scroll 80s linear infinite;
+  width: 2400px;
+}
+.slider .slider .slide {
+  display: flex;
+}
+.slider .slider .slide img {
+  width: 237px;
+  height: 90px;
+  padding: 10px;
+  cursor: pointer;
+  margin: 20px;
+  border-radius: 8px;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-1200px);
+  }
+}
+.register-mail {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  color: white;
+  padding: 8%;
+}
+.register-mail .mas-pregunta {
+  display: flex;
+  justify-content: center;
+  color: black;
+}
+.register-mail .dejatumail-txt {
+  display: flex;
+  justify-content: center;
+  color: #707070;
+  font-size: 20px;
+}
+.register-mail .mail-short {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+footer {
+  background: black;
+  color: #fff;
+  text-align: right;
+  padding: 2% 8%;
+  position: relative;
+  width: 100%;
+  bottom: 0;
+}
+footer .logo-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}/*# sourceMappingURL=estilo.css.map */
