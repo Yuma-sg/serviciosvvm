@@ -22,19 +22,6 @@ Bienvenido al sitio web oficial de **Víctor Vilches**, consultor gastronómico 
 - Librerías o frameworks como Tailwind CSS o Bootstrap  
 - Formularios con EmailJS o backend personalizado
 
-## 📂 Estructura del proyecto
-
-├── public/
-├── src/
-│ ├── assets/
-│ ├── components/
-│ ├── pages/
-│ └── index.js
-├── README.md
-└── package.json
-
-
-
 ## 🧑‍🍳 Sobre Víctor Vilches
 
 Cuento con una trayectoria de más de **25 años en el sector** y **11 años como Gerente General de restaurantes**, lo que me ha permitido cultivar una profunda experiencia y un conocimiento integral tanto en el área **administrativa** como **operativa**.
