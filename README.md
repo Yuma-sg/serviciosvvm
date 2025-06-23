@@ -16,12 +16,6 @@ Bienvenido al sitio web oficial de **Víctor Vilches**, consultor gastronómico 
 - Desarrollo de Manuales de Trabajo
 - Programas de Capacitación
 
-## 🚀 Tecnologías utilizadas
-
-- HTML5 / CSS3 / JavaScript  
-- Librerías o frameworks como Tailwind CSS o Bootstrap  
-- Formularios con EmailJS o backend personalizado
-
 ## 🧑‍🍳 Sobre Víctor Vilches
 
 Cuento con una trayectoria de más de **25 años en el sector** y **11 años como Gerente General de restaurantes**, lo que me ha permitido cultivar una profunda experiencia y un conocimiento integral tanto en el área **administrativa** como **operativa**.
